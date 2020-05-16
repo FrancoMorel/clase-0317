@@ -1,0 +1,47 @@
+@keyframes anim-img{
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    100% {
+        filter: grayscale(75%);
+        opacity: 1;
+        width: 50%;
+    }
+}
+@keyframes anim-titulo{
+    0% {
+        opacity: 0;
+        margin-left: 500px;
+    }
+    55%{
+        
+    }
+    100% {
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+img{
+    animation-name: anim-img;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+h2 {
+    text-align: center;
+    animation-name: anim-titulo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}

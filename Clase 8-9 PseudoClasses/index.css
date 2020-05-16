@@ -1,0 +1,76 @@
+.container-flex {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.cuadrado:hover {
+    background-color: crimson;
+    cursor: pointer;
+    height: 400px;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px orange;
+}
+
+.cuadradito {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: chocolate;
+}
+
+.cuadradito:first-child{
+    background-color: darkgreen;
+}
+
+.cuadradito:first-child:hover{
+    background-color: violet;
+}
+
+.cuadradito:last-child{
+    background-color: blue;
+}
+
+.input-text:focus{
+    background-color: violet;
+    color: turquoise;
+}
+
+.cuadrado2 {
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: chartreuse;
+}
+
+.cuadradito2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: purple;
+}
+
+.cuadradito2:nth-child(3){
+    background-color: red;
+}
+
+.cuadradito2:nth-child(8){
+    background-color: red;
+}

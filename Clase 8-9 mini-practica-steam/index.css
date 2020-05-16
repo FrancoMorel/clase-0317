@@ -1,0 +1,32 @@
+@keyframes anim-steam {
+    0%{
+        background-image: url("https://i11b.3djuegos.com/juegos/14975/dragon_ball_fighters/fotos/ficha/dragon_ball_fighters-3918389.jpg");
+        background-size:contain;
+    }
+    25%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR01qI_P7QVkNtayYTLQNojDjjnm_hxVdWZyq8XlQY73uM-fmj2&usqp=CAU");
+        background-size:contain;
+    }
+    50%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPIZu8LrieYUdaFlu-SSwBm5pe_cpUGtmR-x75AnhHuf3eWeU2&usqp=CAU");
+        background-size:contain;
+    }
+    100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBGsWkolqV4QVEA2cyOJpzMfEhwdXbAECSanMBX6XThgtae4wK&usqp=CAU");
+        background-size:contain;
+    }
+}
+
+.container-flex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.mas-info-juego{
+    height: 200px;
+    width: 400px;
+    animation-name: anim-steam;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}

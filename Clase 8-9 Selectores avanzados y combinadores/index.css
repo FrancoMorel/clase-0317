@@ -1,0 +1,57 @@
+.container-flex {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cuadrado {
+    width: 400px;
+    height: 400px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.violeta {
+    background-color: purple;
+}
+
+/* .azul + div { Aplica a todo div que sea hermano inmediato de .azul
+    background-color: teal;
+    height: 600px;
+} */
+
+
+/* .verde ~ div { Aplica a todo div que sea hermano de .verde (Hermano que sigue)
+    background-color: teal;
+    height: 600px;
+} */
+
+.cuadrado-chiquito { 
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin-top:10px;
+}
+
+/*
+.verde > div { Aplica a todo div que sea hijo de .verde
+    background-color: yellow;
+    height: 150px;
+}*/
+
+/* .container-flex div { Aplica a todo b que sea hijo de un a
+    background-color: yellow;
+} */
+
