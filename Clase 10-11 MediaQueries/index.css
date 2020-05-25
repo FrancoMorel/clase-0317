@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    background-color: honeydew;
+}
+
+img {
+    width: 5%;
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media  (min-width: 300px) and (max-width: 600px), (width:700px){
+    header {
+        flex-wrap: wrap;
+    }
+    img {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        background-color: hotpink;
+        flex-wrap: wrap;
+    }
+    a {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    img {
+        display: none;
+    }
+    a {
+        font-size: 10px;
+    }
+}
