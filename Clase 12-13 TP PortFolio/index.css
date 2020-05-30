@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    height: 30vh;
+    width: 25%;
+    position: relative;
+}
+
+.img-1 {
+    background-image: url("https://miro.medium.com/max/12000/1*fXBo56b0tanSCNHo4O2eWw.jpeg");
+}
+
+.img-2 {
+    background-image: url("https://www.muycomputerpro.com/wp-content/uploads/2018/02/lenguajes-programacion.jpg");
+}
+
+.img-3 {
+    background-image: url("https://blog.educacionit.com/wp-content/uploads/2018/09/shutterstock-10338536170938-620x354-01-750x410.jpg");
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.container-servicio {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #58355E;
+}
+
+h3 {
+    color: white;
+    margin: 0px;
+    padding: 15px;
+}
+
+.container-logos{
+    min-height: 50vh;
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+i {
+    font-size: 8em;
+}
+
+h4{
+    font-size: 2em;
+    text-align: center;
+    visibility: hidden;
+    opacity:0;
+}
+
+.bloque-logo:hover h4{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.bloque-logo:hover i {
+    color: blue;
+    transition: all 0.5s ease-in;
+}
+
+.logo {
+    font-size: 4em;
+    color: #FFF;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #58355E;
+}
+.container-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-mail {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    margin-left: 10px;
+    background-color: #946E83;
+    color: white;
+    height: 40px;
+    width: 75%;
+    border: none;
+    box-shadow: none;
+}
